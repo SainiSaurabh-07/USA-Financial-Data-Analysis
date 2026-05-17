@@ -1,14 +1,16 @@
-💳 USA Financial Data Analysis Dashboard
+# 💳 USA Financial Data Analysis Dashboard
 
 A dynamic, interactive Power BI report built to explore and analyze financial behavior, credit health, and loan patterns across age groups in the United States.
 
 ---
 
-1. Short Description / Purpose
+## 1.Short Description / Purpose
 
 The USA Financial Data Analysis Dashboard is a visually engaging Power BI report designed to help analysts, financial institutions, and strategists explore credit behavior, loan distribution, and financial health metrics across different demographic segments. The dashboard focuses on key financial indicators such as credit utilization, payment behavior, credit score categories, and loan types — enabling data-driven decisions in consumer finance and risk management.
 
-2.Tech Stack
+---
+
+## 2.Tech Stack
 
 The dashboard was built using the following tools and technologies:
 
@@ -18,7 +20,9 @@ The dashboard was built using the following tools and technologies:
 - 📝 **Data Modeling** – Relationships established among tables to enable cross-filtering and aggregation across age, loan type, and credit behavior dimensions.
 - 📁 **File Format** – `.pbix` for development and `.png` for dashboard previews.
 
-3. Data Source
+---
+
+## 3.Data Source
 
 The dataset covers financial profiles of US consumers and includes details on income, credit scores, loan types, payment behavior, credit utilization, and demographic information by age group.
 
@@ -30,21 +34,27 @@ Key fields include:
 - Payment behavior segmented by credit mix (High/Low spend × Large/Medium/Small value)
 - Credit enquiry counts and credit utilization ratios
 
-4. Features / Highlights
+---
 
- ⚙️ Automated Data Pipeline
+## 4.Features / Highlights
+
+### ⚙️ Automated Data Pipeline
 
 This dashboard is powered by a fully automated end-to-end data pipeline — from raw data collection to report delivery — eliminating manual effort and ensuring fresh insights every day.
 
+| Step | Tool | Description |
+|------|------|-------------|
 | 📥 Data Collection | Microsoft Outlook | Daily financial data gathered automatically and consolidated into a dedicated folder |
 | ☁️ Data Storage | Google Drive | Collected files stored and organized centrally for easy access and version control |
 | 🔗 API Integration | Python | Custom-built API connects Power BI directly to Google Drive, enabling seamless and automated data refresh |
 | 🔄 Data Processing | Power Query (Power BI) | Raw data cleaned, transformed, and reshaped into analysis-ready tables |
 | 📊 Report Generation | Power BI Desktop | Dashboards built with key metrics and visuals, auto-generated from the processed data |
 
-**Result**: The entire workflow — from data collection to report delivery — is fully automated. Reports are refreshed and delivered as live visuals every day at **8:00 PM**, providing stakeholders with real-time, actionable financial insights without any manual intervention.
+**Result:** The entire workflow — from data collection to report delivery — is fully automated. Reports are refreshed and delivered as live visuals every day at **8:00 PM**, providing stakeholders with real-time, actionable financial insights without any manual intervention.
 
-5.Business Problem
+---
+
+### 5.Business Problem
 
 Financial institutions and analysts often struggle to understand how credit behavior and loan preferences vary across different age demographics. Key questions such as:
 
@@ -56,14 +66,17 @@ Financial institutions and analysts often struggle to understand how credit beha
 …are difficult to answer quickly with raw transactional data.
 
 ---
-6. Goal of the Dashboard
+
+### 6.Goal of the Dashboard
 
 To deliver an interactive visual tool that:
 - Enables exploration of financial behavior across age groups and credit categories.
 - Supports risk assessment, customer segmentation, and targeted product strategy.
 - Uncovers trends in payment behavior, credit health, and loan demand by demographic.
 
-7. Walkthrough of Key Visuals
+---
+
+### 7.Walkthrough of Key Visuals
 
 **Page 1 — Overview & Credit Behavior**
 
@@ -103,7 +116,7 @@ To deliver an interactive visual tool that:
 
 ---
 
-8.Business Impact & Insights
+### 8.Business Impact & Insights
 
 - **Risk Management**: Credit teams can identify high-risk age segments (e.g., Teens with high enquiry rates) and refine lending criteria accordingly.
 - **Product Targeting**: Banks can tailor loan product campaigns — e.g., promoting Credit-Builder Loans to younger age groups with lower credit scores.
@@ -112,8 +125,9 @@ To deliver an interactive visual tool that:
 - **Portfolio Monitoring**: KPIs like average delay in payments (21.2 days) and credit utilization (32.25%) provide an at-a-glance portfolio health check.
 
 ---
-9. Screenshots
 
-**Page 1 — Overview & Credit Behavior**
+## 9.Screenshots
+
+**Overview & Credit Behavior**
 
 ![USA Financial Dashboard Page 1](https://github.com/SainiSaurabh-07/USA-Financial-Data-Analysis/blob/main/Screenshot%202026-05-05%20163223.png)
