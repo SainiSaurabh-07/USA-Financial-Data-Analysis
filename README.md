@@ -126,10 +126,10 @@ To deliver an interactive visual tool that:
 
 ---
 ## 10.Acknowledgment
----
- **🙋‍♂️Saurabh Saini**
- . **Email:saurabhsaini1974@gmail.com**
- . **Linkdin:https://www.linkedin.com/in/saurabh-saini-55b61b383/**
+--
+**🙋‍♂️Saurabh Saini**
+- **Email:saurabhsaini1974@gmail.com**
+- **Linkdin:https://www.linkedin.com/in/saurabh-saini-55b61b383/**
 
  ---
 ## 9.Screenshots
